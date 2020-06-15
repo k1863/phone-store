@@ -1,0 +1,71 @@
+:root {
+  --mainRed: #d72323;
+  --lightGrey: #3e3636;
+  --navWhite: #f5eded;
+  --mainDark: #000000;
+  --mainWhite: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+  background: var(--mainWhite)!important;
+  color: var(--mainDark) !important;
+  font-size: 1rem;
+}
+
+.text-title{
+  font-family: 'Cabin', sans-serif !important;
+  font-weight: 400;
+  color: var(--lightGrey);
+  font-size: 1.5rem;
+}
+
+.navLink{
+  color: white !important;
+}
+.heading-title{
+  color: var(--lightGrey);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.price{
+  color: var(--mainRed);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.body-text{
+font-size: 1rem;
+font-family: 'Roboto', sans-serif;
+font-weight: lighter;
+}
+
+
+.product-title{
+  font-size: 2.5rem;
+  font-family: 'Cabin', sans-serif !important;
+  font-weight: 400;
+  color: var(--lightGrey);
+  }
+
+  .btn-black{
+    background: transparent;
+    text-transform: capitalize;
+    font-size: 0.8rem !important;
+    color: var(--mainDark);
+    border-radius: 0 !important;
+    border: 0.05rem solid var(--mainDark)!important;
+  }
+
+  .btn-black:hover{
+    background: var(--mainDark) !important;
+    color: var(--mainWhite) !important;
+  }
+
+  .cart-icon{
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--mainDark);
+  }
+
