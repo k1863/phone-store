@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+  import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import logo from '../logo.svg'
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
@@ -17,22 +17,22 @@ class NavBar extends Component {
     render() {
         return (
            <Navwrapper className="navbar navbar-expand-sm  navbar-light px-sm-5" >
-               <Link to="/">            
+               <Link to="/">
                <img  src={logo} className= "navbar-brand" width="110"
                   height="40" />
                </Link>
-               
+
                <ul className="navbar-nav align-items-center d-flex product-nav">
-                <li className="nav-item ml-5 products-link">  
+                <li className="nav-item ml-5 products-link">
                   <Link to="/" className = "nav-link"  style={{ color: "#ffffff"}}>
                      PRODUCTS
                   </Link>
-                </li> 
+                </li>
                </ul>
-               
+
                <Link to="Cart" className="ml-auto">
                <StyledButton  style={{ color: "#ffffff"}}  aria-label="add to shopping cart" >
-                 <AddShoppingCartIcon style={{ fontSize: 30 }} /> 
+                 <AddShoppingCartIcon style={{ fontSize: 30 }} />
                  </StyledButton>
                </Link>
           </Navwrapper>
@@ -49,7 +49,7 @@ text-transform: capitalize !important;
 .products-link{
  flex-direction: column;
  overflow: hidden;
- 
+
 }
 
 .product-nav{
